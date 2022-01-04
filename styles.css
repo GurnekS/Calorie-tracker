@@ -1,0 +1,58 @@
+/*Calculate calories assigment CSS
+    Author Gurnek Singh
+    10/11/21
+    SDEV 117 Josh Archer*/
+html{
+    background-color: #3f466d;
+}
+body {
+    padding: 15px;
+    width: 960px;
+    margin: 0 auto;
+    background-color: #b1c1db;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+img {
+    width: 100%;
+}
+#topBox,#middleBox,#bottomBox{
+    margin-bottom: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid gray;
+}
+
+h1{
+    margin-top: 12px;
+    margin-left: 12px;
+}
+#lbs-to-kgs,#workout-to-met, #calc-calories{
+    margin-left: 8px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    background-color: #b5b8d1;
+}
+
+#lbs,#workouts{
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+#met {
+    margin-left: 85px;
+    margin-bottom: 8px;
+}
+#kgs{
+    margin-left: 37px;
+    margin-bottom: 10px;
+}
+#topLabel,#middleLabel,#bottomLabel,#lastLabel{
+    margin-left: 12px;
+}
+#console{
+    margin-left: 15px;
+    height: 680px;
+    width: 600px;
+}

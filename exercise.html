@@ -1,0 +1,59 @@
+<!--Calculate calories assigment
+    Author Gurnek Singh
+    10/11/21
+    SDEV 117 Josh Archer-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Calorie tracker!</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <main>
+            <section id="topBox">
+                <h1>Weight Conversion</h1>
+                <div class="control-group">
+                    <label id="topLabel">Weight in lbs</label>
+                    <input type="text" id="lbs">
+                </div>
+                <button id="lbs-to-kgs">Convert to kgs</button>
+            </section>
+            <section id="middleBox">
+                <h1>Workout METs</h1>
+                <div class="control-group">
+                    <label id="middleLabel">Workout type</label>
+                    <select id="workouts">
+                        <!-- place your own workout choices here -->
+                        <option value="14.0">Bicycling</option>
+                        <option value="5.0">Painting</option>
+                        <option value="8.0">basketball</option>
+                        <option value="5.5">horseback riding</option>
+                        <option value="5.3">martial arts</option>
+                        <option value="4.3">archery</option>
+                        <option value="1.3">sitting</option>
+                        <option value="6.0">running</option>
+                    </select>
+                </div>
+                <button id="workout-to-met">Convert to MET</button>
+            </section>
+            <section id="bottomBox">
+                <h1>Calories burned per minute</h1>
+                <div class="control-group">
+                    <label id="bottomLabel">MET</label>
+                    <input type="text" id="met">
+                </div>
+                <div class="control-group">
+                    <label id="lastLabel">Weight in kg</label>
+                    <input type="text" id="kgs">
+                </div>
+                <button id="calc-calories">Calculate calories</button>
+            </section>
+            <img src="calories.png" alt="">
+        </main>
+        <aside>
+            <textarea id="console"></textarea>
+        </aside>
+        <script src="script.js"></script>
+    </body>
+</html>
